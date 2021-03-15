@@ -1,0 +1,15 @@
+#root{ 
+    background: #000;
+    height: 500px;
+    width:400px;
+}
+
+.pch {
+    color:red;
+  .dan {
+    color:blue;
+  }
+  &:hover {
+    color:pink
+  }
+}

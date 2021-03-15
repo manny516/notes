@@ -1,0 +1,37 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "this is a test application",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manny516/notes.git"
+  },
+  "keywords": [
+    "Notes",
+    "es6",
+    "javascript",
+    "localstorage"
+  ],
+  "author": "Immanuel Walthrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manny516/notes/issues"
+  },
+  "homepage": "https://github.com/manny516/notes#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "webpack": "^4.40.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
